@@ -1,0 +1,151 @@
+@media screen and (max-width: 767px) {
+  .popupBox {
+    width: 90%;
+    left: 5%;
+    padding: 20px;
+  }
+
+  .popupBox input {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .mainContainer h1.nav {
+    font-size: 28px;
+  }
+
+  .nav1 {
+    font-size: 20px;
+  }
+
+  .select-Container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+  #selectTag, .getTask, #addTaskBtn {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .subcontainer {
+    width: 90%;
+    height: auto;
+    padding: 15px;
+  }
+
+  #addbtn {
+    width: 50px;
+    height: 50px;
+    font-size: 36px;
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .titleTag {
+    font-size: 22px;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .popupBox {
+    width: 70%;
+    left: 15%;
+    padding: 30px;
+  }
+
+  .popupBox input {
+    width: 100%;
+    font-size: 24px;
+  }
+
+  .mainContainer h1.nav {
+    font-size: 36px;
+  }
+
+  .nav1 {
+    font-size: 24px;
+  }
+
+  .select-Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  #selectTag, .getTask, #addTaskBtn {
+    width: 250px;
+  }
+
+  .subcontainer {
+    width: 45%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .titleTag {
+    font-size: 26px;
+  }
+
+  #addbtn {
+    width: 60px;
+    height: 60px;
+    font-size: 44px;
+  }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1339px) {
+  .popupBox {
+    width: 50%;
+    left: 25%;
+    padding: 35px;
+  }
+
+  .popupBox input {
+    width: 100%;
+    font-size: 24px;
+  }
+
+  .mainContainer h1.nav {
+    font-size: 36px;
+  }
+
+  .nav1 {
+    font-size: 24px;
+  }
+
+  .select-Container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px 0;
+  }
+
+  #selectTag, .getTask, #addTaskBtn {
+    width: 230px;
+    font-size: 16px;
+  }
+
+  .subcontainer {
+    width: 280px;
+    height: auto;
+    padding: 20px;
+  }
+
+  .titleTag {
+    font-size: 26px;
+  }
+
+  #addbtn {
+    width: 60px;
+    height: 60px;
+    font-size: 46px;
+    bottom: 20px;
+    right: 20px;
+  }
+}
